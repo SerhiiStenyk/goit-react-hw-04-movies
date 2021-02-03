@@ -1,0 +1,27 @@
+.card {
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+.card img {
+  height: 375px;
+  width: 250px;
+}
+.description {
+  margin-left: 20px;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.genresList {
+  list-style: none;
+  display: inline-flex;
+  padding: 0;
+}
+.genresItem {
+  margin-right: 10px;
+}
